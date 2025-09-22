@@ -83,30 +83,18 @@
   flex-wrap: wrap; 
   justify-content: flex-start;
   margin-left: 30px;
+  
 }
 
 .foto-nutri img {
   width: 350px;
-  margin-top: -100px; 
-  margin-right: 0px;   
+  margin-top: -60px; 
+  margin-right: 40px;   
+  margin-left: -30px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.699);
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 20px;
+  
 }
-
-.foto-principal img {
-    max-width: 600px;   /* tamanho máximo no PC */
-    width: 100%;        /* no celular ocupa a largura da tela */
-    height: auto;
-    border-radius: 20px;
-    display: block;
-    margin: 20px auto;
-}
-
-
 
 
 
@@ -137,7 +125,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* 🔹 No celular: tudo menor */
+
 @media (max-width: 768px) {
     nav {
         padding: 10px 20px;
