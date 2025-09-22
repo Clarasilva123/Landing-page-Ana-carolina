@@ -1,0 +1,383 @@
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+ body {
+  
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      margin: 0;
+      background-color: #dce7db;
+      width: 100%;
+     
+    }
+    html{
+       scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 15px;
+      height: auto;
+       
+     
+      
+    }
+
+      .topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #a6ddb2;
+     
+  }
+    .logo img {
+    max-height: 50px;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px; 
+      text-align: center;
+      max-width: 600px
+      
+      
+    }
+
+    nav ul li a:hover {
+      background-color: #2e6b41;
+      color: white;
+      border-radius: 5px;
+      padding: 5px 10px;
+      transition-duration: 0.5s;
+}
+    nav a {
+      color:#2e6b41;
+      text-decoration: none;
+      padding-right: 25px;
+      
+    }
+      .botao1{
+      background-color: #2e6b41;
+      cursor: pointer;
+      padding: 9px 10px;
+      margin-left: 40px;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      }
+      
+    footer {
+      background-color: #f1f1f1;
+      padding: 10px 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  .botao {
+  background-color: #2e6b41;
+  cursor: pointer;
+  padding: 9px 10px;
+  margin-left: 40px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(1.05) contrast(0.95) saturate(1.1);
+  opacity: 0.95;
+  border-radius: 0.5rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 20px;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.foto-nutri img {
+  width: 350px;
+  margin-top: -100px; 
+  margin-right: 0px;   
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.699);
+  
+  
+}
+
+.foto-principal img {
+    max-width: 600px;   /* tamanho máximo no PC */
+    width: 100%;        /* no celular ocupa a largura da tela */
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+nav .logo img {
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* 🔹 No celular: tudo menor */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 20px;
+    }
+
+    nav .logo img {
+        max-height: 40px;  
+    }
+
+    nav ul {
+        gap: 15px;         
+    }
+
+    nav ul li a {
+        font-size: 14px;    
+    }
+
+   
+}
+
+.foto-nutri2{
+  width: 380px;
+  margin-left: 62%;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.733);
+}
+  
+
+.texto-nutri h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  
+}
+
+.texto-nutri p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.texto-nutri button {
+  padding: 12px 20px;
+  background-color: #2e6b41;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.sobre .texto {
+    max-width: 500px;
+}
+
+.sobre .texto h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.sobre .texto p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.sobre .foto img {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .sobre {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .sobre .foto img {
+        max-width: 80%; 
+    }
+
+    .sobre .texto h2 {
+        font-size: 22px;
+    }
+
+    .sobre .texto p {
+        font-size: 16px;
+    }
+}
+
+.servicos h2{
+  text-align: center;
+  font-size: 30px;
+  position: relative; top: -200px
+}
+.contato-social {
+  text-align: left;
+  font-size: 18px;
+  padding-left: 65px;
+  padding-top: 38px;
+}
+.social{
+ font-size: 40px; 
+ margin: 10px;
+
+}
+.projeto{
+    padding: 6em 2em;
+}
+
+.projetos-titulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 50px;
+    
+    padding-top: -100px;
+}
+    
+
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 0 auto;
+
+}
+.card{
+    background-color: #a6ddb2;
+    border-radius: 16px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    
+}
+
+.card:hover{
+    box-shadow: 0px 10px 20px #0000009a;
+}
+.projeto-imagem{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+ .nome-projeto{
+  text-align: center;
+ } 
+ .paragrafo-projeto{
+  text-align: center;
+  padding: 10px;
+ }
+
+
+ .projeto2{
+    padding: 6em 2em;
+}
+
+.projetos-titulo2{
+    text-align: center;
+    font-size: 2em;
+    margin: 50px;
+    margin-top: -250px; 
+    padding-top: -100px;
+}
+    
+
+.projetos-caixa2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 0 auto;
+
+}
+.card2{
+    background-color: #a6ddb2;
+    border-radius: 16px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.card2:hover{
+    box-shadow: 0px 10px 20px #0000009a;
+}
+.projeto-imagem2{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+ .nome-projeto2{
+  text-align: center;
+ } 
+ .paragrafo-projeto2{
+  text-align: center;
+  padding: 10px;
+ }
+ .frase{
+  text-align: center;
+  margin: -60px;
+  
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto; 
+ }
+ .contato-social{
+    padding: 20px;            
+    text-align: center;       
+    box-sizing: border-box;   
+ }
+ footer {
+    width: 100%;
+    background: none;    
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
